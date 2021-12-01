@@ -1,0 +1,35 @@
+package _02_Scanner;
+
+import java.util.Scanner;
+
+public class Q06 {
+
+    public static void main(String[] args) {
+
+    /*  Problem Tanýmý
+        Mesafeyi ve hýzý alýp süreyi hesaplayan bir kod yazýnýz.
+        örneÄŸin:istanbul ile Ankara arasý 400km olarak Ã¶lÃ§ülmektedir. Bu yolu ortalama
+        120 km/saat hýzla giden bir araÃ§ ne kadar sürede hedefe varýr?
+
+        örnek Ekran çýktýsý
+        Mesafeyi giriniz: 400
+        Hýzý giriniz: 100
+        Süre 4 saattir.
+     */
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("GideceÄŸiniz yol mesafesi(km): ");
+        double yol = scanner.nextDouble();
+
+        System.out.print("Ortalama Hýzýnýz(km/sa): ");
+        double ort_hiz = scanner.nextDouble();
+
+        double varis_suresi = yol / ort_hiz;
+        System.out.print("VarýÅŸ süreniz: " + varis_suresi + " saat");
+
+        scanner.close();
+        
+
+    }
+}
