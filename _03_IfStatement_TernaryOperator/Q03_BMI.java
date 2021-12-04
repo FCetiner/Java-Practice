@@ -2,7 +2,7 @@ package _03_IfStatement_TernaryOperator;
 
 import java.util.Scanner;
 
-public class Q03 {
+public class Q03_BMI {
 
 	public static void main(String[] args) {
 		 /*  Kullanicidan boyunu  CM  ve kilosunu kg alarak  BMI (VKE) hesaplayiniz
