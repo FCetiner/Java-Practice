@@ -1,41 +1,41 @@
 package javaProjects.okulYonetimi;
 
-public class Ogrenci extends Kisi{
+public class Ogrenci extends Kisi{//kisini childi
 
-private	String numara;
-private	String sýnýf;
+ private   String numara;
+ private   String sinif;
 
+    public Ogrenci() {
 
-public Ogrenci () {
-	
-}
+    }
 
+    public Ogrenci(String adSoyad, String kimlikNo, int yas, String numara, String sinif) {
+        super(adSoyad, kimlikNo, yas);
+        this.numara = numara;
+        this.sinif = sinif;
+    }
 
-public Ogrenci(String adSoyad, String kimlikNo, int yas, String numara, String sýnýf) {
-	super(adSoyad, kimlikNo, yas);
-	this.numara = numara;
-	this.sýnýf = sýnýf;
-}
-public String getNumara() {
-	return numara;
-}
-public void setNumara(String numara) {
-	this.numara = numara;
-}
-public String getSýnýf() {
-	return sýnýf;
-}
-public void setSýnýf(String sýnýf) {
-	this.sýnýf = sýnýf;
-}
+    public String getNumara() {
+        return numara;
+    }
 
+    public void setNumara(String numara) {
+        this.numara = numara;
+    }
 
-@Override
-public String toString() {
-	return "Ogrenci [numara=" + numara + ", sýnýf=" + sýnýf + "]";
-}
-	
-	
-	
-	
+    public String getSinif() {
+        return sinif;
+    }
+
+    public void setSinif(String sinif) {
+        this.sinif = sinif;
+    }
+
+	@Override
+	public String toString() {
+		return "Ogrenci [numara=" + numara + ", sinif=" + sinif + ", getAdSoyad()=" + getAdSoyad() + ", getKimlikNo()="
+				+ getKimlikNo() + ", getYas()=" + getYas() + "]";
+	}
+    
+    
 }
