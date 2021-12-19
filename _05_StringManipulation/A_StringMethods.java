@@ -3,7 +3,8 @@ package _05_StringManipulation;
 import java.util.Locale;
 
 public class A_StringMethods {
-    public static void main(String[] args) {
+    @SuppressWarnings({ "unused", "null" })
+	public static void main(String[] args) {
 
 
         /** indexOf()

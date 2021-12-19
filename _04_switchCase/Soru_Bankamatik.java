@@ -7,11 +7,11 @@ public class Soru_Bankamatik {
     public static void main(String[] args) {
 
         System.out.println("*****************************");
-        System.out.println("ATM'ye HoÅŸgeldiniz...");
+        System.out.println("ATM'ye Hoþgeldiniz...");
 
-        String islemler = "1.Ä°iþlem : Bakiye Ã–ÄŸrenme\n2.Ä°iþlem : Para YatÄ±rma\n"
-                + "3.Ä°iþlem : Para Ã‡ekme\n"
-                + "4.Ä°iþlem : Ã‡Ä±kÄ±ÅŸ";
+        String islemler = "1.iþlem : Bakiye Öðrenme\n2.Ä°iþlem : Para Yatýrma\n"
+                + "3.Ä°iþlem : Para Çekme\n"
+                + "4.Ä°iþlem : Çýkýþ";
 
         System.out.println(islemler);
         System.out.println("*****************************");
@@ -19,7 +19,7 @@ public class Soru_Bankamatik {
         int bakiye = 1000;
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Yapmak istediÄŸiniz iiþlemi seÃ§iniz: ");
+        System.out.print("Yapmak istediðiniz iiþlemi seçiniz: ");
         String islem = scanner.nextLine();
 
         switch (islem) {
@@ -28,7 +28,7 @@ public class Soru_Bankamatik {
                 break;
 
             case "2":
-                System.out.print("YatÄ±rmak istediÄŸiniz tutarÄ± girin: ");
+                System.out.print("Yatýrmak istediðiniz tutarý girin: ");
 
                 int tutar = scanner.nextInt();
 
@@ -39,7 +39,7 @@ public class Soru_Bankamatik {
 
 
             case "3":
-                System.out.print("Ã‡ekmek istediÄŸiniz tutarÄ± girin: ");
+                System.out.print("Çekmek istediðiniz tutarý girin: ");
                 int tutar2 = scanner.nextInt();
 
 
@@ -52,10 +52,10 @@ public class Soru_Bankamatik {
                 break;
 
             case "4":
-                System.out.println("Ã‡Ä±kÄ±ÅŸ yapÄ±lÄ±yor...");
+                System.out.println("Çýkýþ yapýlýyor...");
                 break;
             default:
-                System.out.println("GeÃ§ersiz iiþlem...");
+                System.out.println("Geçersiz iiþlem...");
                 break;
         }
 scanner.close();

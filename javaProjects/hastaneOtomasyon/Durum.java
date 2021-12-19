@@ -5,7 +5,14 @@ private String aktuelDurum;
 private boolean aciliyet;
 
 
-
+public Durum () {
+	
+}
+public Durum(String aktuelDurum, boolean aciliyet) {
+	super();
+	this.aktuelDurum = aktuelDurum;
+	this.aciliyet = aciliyet;
+}
 public String getAktuelDurum() {
 	return aktuelDurum;
 }

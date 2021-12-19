@@ -140,6 +140,7 @@ public class Islemler {
 		
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	private static void silme() {
 		System.out.println("*****Silme sayfasýna Hoþgeldiniz*****");
 		if (kisiTuru.equalsIgnoreCase("Ogrenci")) {

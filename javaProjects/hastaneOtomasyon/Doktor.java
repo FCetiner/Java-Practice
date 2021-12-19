@@ -5,7 +5,16 @@ private String isim;
 private String soyisim;
 private String unvan;
 
+public Doktor() {
+	
+}
 
+public Doktor(String isim, String soyisim, String unvan) {
+	super();
+	this.isim = isim;
+	this.soyisim = soyisim;
+	this.unvan = unvan;
+}
 public String getIsim() {
 	return isim;
 }

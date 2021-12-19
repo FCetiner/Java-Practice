@@ -1,7 +1,8 @@
 package _05_StringManipulation;
 
 public class B_ValueOf {
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
         // Integer.valueOf() rakamlarla olusturulan String'leri sayiya donusturur. Boylece rakamlarla olusturulan
         // Stringlerle matematiksel islemler yapabilmemizi saglar.
 

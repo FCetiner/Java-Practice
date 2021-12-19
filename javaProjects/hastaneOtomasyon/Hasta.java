@@ -8,12 +8,27 @@ public class Hasta {
 	private Durum hastaDurumu;
 	
 	
+	public Hasta() {
+		
+	}
+	
+	public Hasta(String isim, String soyisim, int hastaId, Durum hastaDurumu) {
+		super();
+		this.isim = isim;
+		this.soyisim = soyisim;
+		this.hastaId = hastaId;
+		this.hastaDurumu = hastaDurumu;
+	}
+	
+	
+	
 	public String getIsim() {
 		return isim;
 	}
 	public void setIsim(String isim) {
 		this.isim = isim;
 	}
+	
 	public String getSoyisim() {
 		return soyisim;
 	}

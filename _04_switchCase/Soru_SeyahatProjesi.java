@@ -1,7 +1,5 @@
 package _04_switchCase;
 
-import java.util.Scanner;
-
 public class Soru_SeyahatProjesi {
 
     public static void main(String[] args) {

@@ -30,7 +30,7 @@ public class Q01 {
     		   
     	}
     	
-    	
+    scan.close();	
     }
 
 }

@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Q11 {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
         /*
         TechProEd spor salonu için kullanýcýdan isim soyisim, yaþ, kilo, boy, salona devam edeceði ay süresini
         bilgilerini alýp aylýk $20 olarak toplam ücretini yazdýrýnýz.
